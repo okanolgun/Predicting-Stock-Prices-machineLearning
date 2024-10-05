@@ -1,7 +1,10 @@
-import numpy as np 
-import pandas as pd 
-import matplotlib.pyplot as plt  
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 import pandas_datareader as web
 import datetime as dt
 
-from 
+from sklearn.preprocessing import MinMaxScaler
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, LSTM
+
